@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.sofittech.mobileinformation.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Mobile Information"
+        android:textColor="#ff0000"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#375990"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="MAC Address"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="IP Address"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="Model"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="Device Name"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="OS Version"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="Kernal Version"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="Screen Resolution"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:text="Serial"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#fff">
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="9dp"
+                android:text="Signal Strength"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#fff"/>
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
